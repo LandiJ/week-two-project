@@ -6,21 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="photo"></div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="./calendar/index.html"> Calendar </a></li>
-            <li><a href="./join/index.html"> Join </a></li>
+        <ul class="header">
+            <li class="home nav"><a href="index.html">Home</a></li>
+            <li class="calendar nav"><a href="./calendar/index.html"> Calendar </a></li>
+            <li class="join nav"><a href="./join/index.html"> Join </a></li>
         </ul>
     </header>
 
 
     <h1>Get Involved</h1>
-    <div>
+    <div class="top">
         <div>
             <div>
                 <h2>Watch</h2>
@@ -48,10 +50,58 @@
             </p>
         </div>
     </div>
-    <div>
-        <h1>Up Next</h1>
-    </div>
-
+    <div class="bottom">
+        <h1 id="next">Up Next</h1>
+        <div id="middle">
+            <div id="movie_pic_one"></div>
+            <div id="right">
+                <h3><a class="h_three" href="">Rashomon</a></h3>
+                <p id="box"> Film Club:<strong> 6/13</strong></p>
+                <h5>Discussion Points</h5>
+                <ul id="list">
+                    <li>perspective</li>
+                    <li>balance</li>
+                    <li>movement</li>
+                    <li>emphasis</li>
+                    <li>space</li>
+                </ul>
+            </div>
+        </div>
+        <div id="poster">
+            <div class="column">
+                <div>
+                    <div class="pic" id="movie_pic_two"></div>
+                    <a class="link" href "">The Great Train Robbery</a>
+                    <p class="sub-poster">Film Club: <strong>6/27</strong></p>
+                </div>
+                <div>
+                    <div class="pic" id="movie_pic_four"></div> <a class="link" href "">Nosferatu</a>
+                    <p class="sub-poster">Film Club: <strong>7/25</strong></p>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <div class="pic" id="movie_pic_three"></div>
+                    <a class="link" href "">The Bicycle Thief</a>
+                    <p class="sub-poster">Film Club: <strong>7/11</strong></p>
+                </div>
+                <div>
+                    <div class="pic" id="movie_pic_five"></div>
+                    <a class="link" href "">Metropolis</a>
+                    <p class="sub-poster">Film Club:<strong> 8/08</strong></p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul class="nav_two">
+                <li class="home nav_item"><a href="index.html">Home</a></li>
+                <li class="calendar nav_item"><a href="./calendar/index.html"> Calendar </a></li>
+                <li class="join nav_item"><a href="./join/index.html"> Join </a></li>
+            </ul>
+        </div>
+        <footer>
+            2017, Film Club
+        </footer>
 
 
 </body>
