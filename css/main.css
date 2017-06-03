@@ -6,27 +6,9 @@ header {
     padding-bottom: 50px;
 }
 
-li a {
-    text-decoration: none;
-    color: white;
-}
-
-ul {
-    -webkit-padding-start: 0px;
-}
-
-.nav {
-    list-style: none;
-    text-align: center;
-    padding: 8.8px;
-}
-
-.nav_item {
-    list-style: none;
-    text-align: center;
-    padding: 8.8px;
-    margin-left: -25px;
-    margin-right: -25px;
+nav {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -41,12 +23,6 @@ h2 {
     letter-spacing: 1px;
     font-size: 23px;
     padding: 2.5px 17px;
-}
-
-.h_three {
-    font-size: 23px;
-    color: #00B7D3;
-    font-weight: lighter;
 }
 
 p {
@@ -76,6 +52,24 @@ footer {
     padding: 15px;
     margin-right: 0px;
     float: left;
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    flex: 1 100%;
+    padding: 8.8px 10px;
+}
+
+.nav_two {
+    list-style: none;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    flex: 1 100%;
+    padding: 8.8px;
 }
 
 .home {
@@ -108,6 +102,12 @@ footer {
 .pic {
     height: 9.5rem;
     width: 7.5rem;
+}
+
+.h_three {
+    font-size: 23px;
+    color: #00B7D3;
+    font-weight: lighter;
 }
 
 .column {
@@ -189,4 +189,8 @@ footer {
 
 #movie_pic_five {
     content: url("../images/metropolis-poster.jpg")
+}
+
+#bottom_nav {
+    margin: 16px -25px;
 }
