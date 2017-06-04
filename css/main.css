@@ -1,242 +1,361 @@
-body {
-    font-family: PT Sans;
-}
-
-header {
-    padding-bottom: 50px;
-}
-
-nav {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-h1 {
-    font-weight: lighter;
-    margin-top: -15px;
-}
-
-h2 {
-    background-color: #0B1942;
-    color: white;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    font-size: 23px;
-    padding: 2.5px 17px;
-}
-
-p {
-    font-size: smaller;
-    line-height: 24px;
-}
-
-strong {
-    font-size: 11.5px;
-}
-
-footer {
-    text-align: center;
-    background-color: #80ffff;
-    color: white;
-    padding: 18px 0px;
-    margin-left: -25px;
-    margin-right: -25px;
-    margin-top: -16px;
-}
-
-.photo {
-    content: url("../images/filmclub.png");
-    max-height: 100px;
-    width: 75px;
-    background-color: #F5005B;
-    padding: 15px;
-    margin-right: 0px;
-    float: left;
-}
-
-.nav {
-    list-style: none;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    flex: 1 100%;
-    padding: 8.8px 10px;
-}
-
-.nav_two {
-    list-style: none;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    flex: 1 100%;
-    padding: 8.8px;
-}
-
-.home {
-    background-color: #00A5BF;
-}
-
-.calendar {
-    background-color: #00B7D3;
-}
-
-.join {
-    background-color: #00D5E7;
-}
-
-.top {
-    margin-bottom: 40px;
-    margin-left: 9px;
-}
-
-.bottom {
-    background-color: #0B1942;
-    padding: 25px 25px 0px 25px;
-}
-
-.link {
-    color: #00B7D3;
-    font-size: 10.5px;
-}
-
-.pic {
-    max-width: 100%;
-    display: block;
-}
-
-.h_three {
-    font-size: 23px;
-    color: #00B7D3;
-    font-weight: lighter;
-}
-
-.right_item {
-    flex: 1 1 100%;
-}
-
-.sub-poster {
-    font-size: 11px;
-    margin-top: -3px;
-}
-
-#right {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
-}
-
-#movie_pic_one {
-    content: url("../images/rashomon-poster.jpg");
-    height: 20%;
-    width: 50%;
-}
-
-#next {
-    color: white;
-    font-weight: 100;
-    letter-spacing: 1px;
-}
-
-#middle {
-    display: flex;
-    justify-content: space-between;
-    background-color: #E2E2E2;
-    padding-bottom: .5rem;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    padding-right: 2rem;
-    margin: -1rem;
-    max-width: 100%;
-}
-
-#box {
-    margin-top: -18px;
-    border-bottom: 1px solid black;
-    /*padding-right: 30px;*/
-    font-size: 10.6px;
-}
-
-#list {
-    margin-top: -18px;
-    list-style-type: circle;
-    line-height: 20px;
-    font-size: 12.5px;
-}
-
-#poster {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: #E2E2E2;
-    padding: 30px 40px;
-    margin: 30px -15px;
-}
-
-.movies {
-    flex-basis: 45%;
-}
-
-#movie_pic_two {
-    content: url("../images/great-train-poster.jpg");
-}
-
-#movie_pic_three {
-    content: url("../images/bicycle-thief-poster.jpg");
-}
-
-#movie_pic_four {
-    content: url("../images/nosferatu-poster.jpg");
-}
-
-#movie_pic_five {
-    content: url("../images/metropolis-poster.jpg")
-}
-
-#bottom_nav {
-    margin: 16px -25px;
-}
-
-@media (min-width: 545px) {
+    body {
+        font-family: PT Sans;
+    }
+    
     header {
-        display: flex;
-        flex-wrap: nowrap;
-        height: 100px;
+        padding-bottom: 50px;
+        margin: -8px -26px -11px -11px;
     }
+    
     nav {
-        flex-wrap: nowrap;
-        flex: 1 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
+    
+    h1 {
+        font-weight: lighter;
+        margin-top: -15px;
+    }
+    
     h2 {
-        font-size: 19px;
-        padding: 20px;
+        background-color: #0B1942;
+        color: white;
+        font-weight: lighter;
+        letter-spacing: 1px;
+        font-size: 23px;
+        padding: 2.5px 17px;
     }
-    .top {
+    
+    p {
+        font-size: smaller;
+        line-height: 24px;
+    }
+    
+    strong {
+        font-size: 11.5px;
+    }
+    
+    .month {
+        padding: 18px;
+    }
+    
+    #calendar {
+        background-color: #0B1942;
+        padding: 18px 1px;
+        margin-right: -2rem;
+        margin-left: -.5rem;
+        position: relative;
+        top: -0.7rem;
+        margin: -28px;
+    }
+    
+    .week p {
+        background-color: #0B1942;
+        color: white;
+        margin-top: -41.4%;
+        margin-left: -21%;
+        margin-right: 39%;
+        padding-right: 30%;
+        padding-top: 35%;
+        text-align: center;
+        padding-left: 18%;
+    }
+    
+    .week {
         display: flex;
     }
-    .paragraph {
-        margin: 12px;
-        flex: 1;
+    
+    .day {
+        display: flex;
+        justify-content: flex start;
+        align-content: flex-start;
+        background-color: white;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 100%;
+        margin: 1px;
+        padding: 4% 2%;
+        font-size: 12px;
     }
-    #blue {
-        flex: 1 100%;
+    
+    .selected {
+        background-color: #F5005B;
+    }
+    
+    .week:last-of-type .day:last-of-type {
+        margin-right: 57.6%;
+    }
+    
+    #june {
+        color: white;
+        font-size: 25px;
+        padding-left: 55px;
+        margin-bottom: 20px;
+    }
+    
+    .c-nav-footer {
+        margin-right: 15px;
+    }
+    
+    footer {
+        text-align: center;
         background-color: #80ffff;
+        color: white;
+        padding: 18px 0px;
+        margin-left: -25px;
+        margin-right: -25px;
+        margin-top: -16px;
     }
-    #middle {
-        justify-content: flex-start;
-        padding-right: 0px;
+    
+    .photo {
+        content: url("../images/filmclub.png");
+        max-height: 100px;
+        width: 75px;
+        background-color: #F5005B;
+        padding: 15px;
+        margin-right: 0px;
+        float: left;
     }
-    #box {
-        /*padding-right: 200px;*/
+    
+    .nav {
+        list-style: none;
+        text-align: center;
+        align-self: center;
+        color: white;
+        text-decoration: none;
+        flex: 1 100%;
+        padding: 8.8px 10px;
     }
+    
+    .nav_two {
+        list-style: none;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        flex: 1 100%;
+        padding: 8.8px;
+    }
+    
+    .home {
+        background-color: #00A5BF;
+    }
+    
+    .calendar {
+        background-color: #00B7D3;
+    }
+    
+    .join {
+        background-color: #00D5E7;
+    }
+    
+    .top {
+        margin-bottom: 40px;
+        margin-left: 9px;
+    }
+    
+    .bottom {
+        background-color: #0B1942;
+        padding: 26px 45px 2px 45px;
+        margin: 0px -25px -16px -9px;
+    }
+    
+    .link {
+        color: #00B7D3;
+        font-size: 10.5px;
+    }
+    
+    .pic {
+        max-width: 100%;
+        display: block;
+    }
+    
+    .h_three {
+        font-size: 23px;
+        color: #00B7D3;
+        font-weight: lighter;
+    }
+    
+    .right_item {
+        flex: 1 1 100%;
+    }
+    
+    .sub-poster {
+        font-size: 11px;
+        margin-top: -3px;
+    }
+    
+    #right {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+    }
+    
     #movie_pic_one {
-        /*max-height: 18rem;
-        max-width: 70%;
-        margin-top: 15px;
-        margin-left: 1px;*/
+        content: url("../images/rashomon-poster.jpg");
+        height: 20%;
+        width: 50%;
     }
+    
+    #next {
+        color: white;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+    
+    #middle {
+        display: flex;
+        justify-content: space-between;
+        background-color: #E2E2E2;
+        padding-bottom: .5rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-right: 2rem;
+        margin: -1rem;
+        max-width: 100%;
+    }
+    
+    #box {
+        margin-top: -18px;
+        border-bottom: 1px solid black;
+        font-size: 10.6px;
+    }
+    
+    #list {
+        margin-top: -18px;
+        list-style-type: circle;
+        line-height: 20px;
+        font-size: 12.5px;
+    }
+    
     #poster {
-        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: #E2E2E2;
+        padding: 30px 40px;
+        margin: 30px -15px;
     }
-}
+    
+    .movies {
+        flex-basis: 45%;
+    }
+    
+    #movie_pic_two {
+        content: url("../images/great-train-poster.jpg");
+    }
+    
+    #movie_pic_three {
+        content: url("../images/bicycle-thief-poster.jpg");
+    }
+    
+    #movie_pic_four {
+        content: url("../images/nosferatu-poster.jpg");
+    }
+    
+    #movie_pic_five {
+        content: url("../images/metropolis-poster.jpg")
+    }
+    
+    #bottom_nav {
+        margin: 16px -25px;
+    }
+    
+    @media (min-width: 545px) {
+        header {
+            display: flex;
+            flex-wrap: nowrap;
+            height: 100px;
+        }
+        nav {
+            flex-wrap: nowrap;
+            flex: 1 100%;
+        }
+        h2 {
+            font-size: 19px;
+            padding: 20px;
+        }
+        .nav {
+            padding: 39.8px 10px;
+        }
+        .top {
+            display: flex;
+        }
+        .paragraph {
+            margin: 12px;
+            flex: 1;
+        }
+        .bottom {
+            padding: 26px 45px 2px 45px;
+            margin: 0px -25px -16px -9px;
+        }
+        #blue {
+            flex: 1 100%;
+            background-color: #80ffff;
+        }
+        #middle {
+            justify-content: flex-start;
+            padding-right: 30px;
+            margin: 0rem;
+        }
+        #poster {
+            align-items: center;
+            margin: 28px 2px;
+        }
+        #bottom_nav {
+            margin: 7px;
+        }
+        #nav_footer {
+            display: flex;
+            flex-wrap: nowrap;
+            margin-top: 1.5rem;
+            height: 100px;
+            margin-right: -1rem;
+            margin-left: -1rem;
+        }
+        footer {
+            text-align: right;
+            background-color: #80ffff;
+            color: white;
+            padding-right: 15px;
+            margin-left: -0.5rem;
+            margin-right: -1rem;
+            margin-top: 0px;
+            flex: 1 100%;
+            align-self: center;
+            padding: 48px 22px;
+        }
+        .nav_two {
+            align-self: center;
+            padding: 48px 0px;
+        }
+    }
+    
+    @media (min-width: 769px) {
+        #flex {
+            display: flex;
+        }
+        #poster {
+            margin-left: 1rem;
+            margin-top: 1rem;
+        }
+        #middle {
+            margin-top: 1rem;
+            margin-right: 0rem;
+            margin-left: 0rem;
+            margin-bottom: 30rem;
+            padding-right: 9rem;
+        }
+        #movie_pic_one {
+            height: 75%;
+            width: 75%;
+        }
+        #next {
+            margin-top: 1rem;
+            padding-right: 1rem;
+        }
+        #right {
+            display: block;
+        }
+    }
