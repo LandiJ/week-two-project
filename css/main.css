@@ -35,6 +35,10 @@
         font-size: 11.5px;
     }
     
+    label {
+        font-size: 13px;
+    }
+    
     #calendar {
         background-color: #0B1942;
         margin: 0px -8.8px;
@@ -275,6 +279,37 @@
         display: block;
         margin-left: auto;
         margin-right: auto
+    }
+    
+    #join_flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    
+    .flex_form {
+        width: 100%;
+        height: 30px;
+        margin-bottom: 19px;
+    }
+    
+    #checks {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .check_flex {
+        margin-bottom: 20px;
+    }
+    
+    #check_header {
+        margin-bottom: 20px;
+    }
+    
+    textarea {
+        width: 100%;
+        margin-bottom: 30px;
     }
     
     @media (min-width: 545px) {
