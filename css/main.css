@@ -402,6 +402,9 @@
         #pass_margin {
             margin-top: 50px;
         }
+        #checks {
+            flex-direction: row;
+        }
         .column {
             flex: 1 48%;
         }
