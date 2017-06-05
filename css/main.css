@@ -312,6 +312,13 @@
         margin-bottom: 30px;
     }
     
+    #submit {
+        border: none;
+        background-color: #F5005B;
+        color: white;
+        padding: 20px;
+    }
+    
     @media (min-width: 545px) {
         header {
             display: flex;
@@ -385,6 +392,18 @@
         .nav_two {
             align-self: center;
             padding: 48px 0px;
+        }
+        #first_flex {
+            display: flex;
+        }
+        #join_flex {
+            flex: 1 100%;
+        }
+        #pass_margin {
+            margin-top: 50px;
+        }
+        .column {
+            flex: 1 48%;
         }
     }
     
