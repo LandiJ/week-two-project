@@ -436,4 +436,27 @@
         #right {
             display: block;
         }
+        .column {
+            flex: 0 33%;
+        }
+        textarea {
+            width: 64%;
+            margin-bottom: 50px;
+        }
+        #submit {
+            position: relative;
+            right: 65%;
+        }
+        #join_flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .side_profile {
+            flex-basis: 48%;
+        }
+        #pass_margin {
+            margin-top: 0px;
+        }
     }
