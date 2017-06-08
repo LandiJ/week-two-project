@@ -1,5 +1,7 @@
     body {
         font-family: PT Sans;
+        margin-bottom: -8px;
+        color: #0B1942;
     }
     
     footer {
@@ -32,8 +34,13 @@
         padding: 2.5px 17px;
     }
     
+    input {
+        cursor: pointer;
+    }
+    
     label {
         font-size: 13px;
+        cursor: pointer;
     }
     
     nav {
@@ -53,6 +60,7 @@
     textarea {
         width: 100%;
         margin-bottom: 30px;
+        cursor: pointer;
     }
     
     .bottom {
@@ -67,6 +75,7 @@
     
     .check_flex {
         margin-bottom: 20px;
+        cursor: pointer;
     }
     
     .c-nav-footer {
@@ -99,6 +108,7 @@
         font-size: 23px;
         color: #00B7D3;
         font-weight: lighter;
+        cursor: pointer;
     }
     
     .join {
@@ -122,6 +132,7 @@
         text-decoration: none;
         flex: 1 100%;
         padding: 8.8px 10px;
+        cursor: pointer;
     }
     
     .nav_two {
@@ -131,6 +142,7 @@
         text-decoration: none;
         flex: 1 100%;
         padding: 8.8px;
+        cursor: pointer;
     }
     
     .other-header {
@@ -322,6 +334,7 @@
         background-color: #F5005B;
         color: white;
         padding: 20px;
+        cursor: pointer;
     }
     
     @media (min-width: 545px) {
